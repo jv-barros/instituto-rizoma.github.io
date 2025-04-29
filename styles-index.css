@@ -195,7 +195,7 @@ body {
     background: transparent url('FUNDO_HOME.png') 0% 0% no-repeat padding-box;
     background-size: 100%;
     opacity: 1;
-    
+    background-color: #EE7D00;    
 }
 
 .nossa-missao-title {
@@ -227,6 +227,7 @@ body {
     /* UI Properties */
     background: #EE7D00 0% 0% no-repeat padding-box;
     opacity: 1;
+    
 
 
 }
@@ -442,7 +443,7 @@ body {
     opacity: 1;
 
     background-size: 100%;
-
+    background-color:#52773D;
 }
 
 .texto-acoes {
@@ -1038,7 +1039,6 @@ body {
     border-radius: 45px;
     opacity: 1;
 
-    background-color: orange;
     position: absolute;
     
 
