@@ -1,0 +1,777 @@
+/* iniciando pela home */
+
+/* import fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Kodchasan:wght@300;700&display=swap');
+
+/* fonte abaixo n está funcionando, corrigir  */
+@font-face {
+    font-family: 'Flat Brush';
+    src: url('/FlatBrushRegular.otf') format('truetype');
+}
+
+body {
+    background-color: yellow;
+
+    /* medidas para página toda principaal */
+    width: 100%;
+    max-width: 1920px;
+    height: 7431px;
+    margin: 0 auto; /* centraliza */
+}
+
+
+.top-bar {
+    /* Layout Properties */
+    top: 0px;
+    left: 0px;
+    width: 1920px;
+    height: 149px;
+    /* UI Properties */
+    background: #8F352A 0% 0% no-repeat padding-box;
+    opacity: 1;
+
+
+    /* border: solid 10px blue; */
+}
+
+/* logo */
+/* adicionar imagem */
+.top-bar-logo {
+    /* Layout Properties */
+    top: 29px;
+    margin-left: 62px;
+    width: 271px;
+    height: 90px;
+    /* UI Properties */
+    opacity: 1;
+    position: relative;
+
+    /* teste */
+    background-color: #fff;
+}
+
+/* items menu */
+
+
+.top-bar-menu-inicio {
+    /* Layout Properties */
+    top: 58px;
+    margin-left: 804px;
+    width: 94px;
+    height: 38px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal bold 29px/38px Kodchasan;
+    letter-spacing: 0px;
+    color: #FFE7D2;
+    opacity: 1;
+
+    
+    /* border: solid 10px blue; */
+    position: absolute; 
+}
+
+.top-bar-menu-quemsomos {
+    /* Layout Properties */
+    top: 58px;
+    margin-left: 979px;
+    width: 214px;
+    height: 38px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal 300 29px/38px Kodchasan;
+    letter-spacing: 0px;
+    color: #FFE7D2;
+    opacity: 1;
+
+    /* border: solid 10px blue; */
+    position: absolute;
+
+}
+
+.top-bar-menu-projetos {
+    /* Layout Properties */
+    top: 58px;
+    margin-left: 1278px;
+    width: 161px;
+    height: 38px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal 300 29px/38px Kodchasan;
+    letter-spacing: 0px;
+    color: #FFE7D2;
+    opacity: 1;
+
+    /* border: solid 10px blue; */
+    position: absolute; 
+
+}
+
+
+.top-bar-menu-transparencia {
+    /* Layout Properties */
+    top: 58px;
+    margin-left: 1524px;
+    width: 256px;
+    height: 38px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal 300 29px/38px Kodchasan;
+    letter-spacing: 0px;
+    color: #FFE7D2;
+    opacity: 1;
+
+    /* border: solid 10px blue; */
+    position: absolute; 
+    
+}
+
+/* seção com fundo bege */
+
+.main-div-text{
+    /* Layout Properties */
+    top: 149px;
+    left: 0px;
+    width: 1920px;
+    height: 764px;
+    /* UI Properties */
+    /* alterar p fundo com casa */
+    background: transparent url('FUNDO HOME.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.main-div-text-logo {
+    /* Layout Properties */
+    top: 278px;
+    margin-left: 212px;
+    width: 485px;
+    height: 161px;
+    /* UI Properties */
+    opacity: 1;
+
+
+    background-color: #52773D;
+    position: absolute;
+}
+
+.main-div-text-text {
+    /* Layout Properties */
+    top: 493px;
+    margin-left: 209px;
+    width: 971px;
+    height: 333px;
+    /* UI Properties */
+    text-align: left;
+    letter-spacing: 0px;
+    color: #8F352A;
+    opacity: 1;
+
+    background-color: blue;
+    position: absolute;
+}
+
+
+
+/* seção título nossa missao */
+
+.nossa-missao {
+    /* Layout Properties */
+    top: 902px;
+    left: 0px;
+    width: 1920px;
+    height: 1080px;
+    /* UI Properties */
+
+
+    background: transparent url('FUNDO_HOME.png') 0% 0% no-repeat padding-box;
+    background-size: 100%;
+    opacity: 1;
+    
+}
+
+.nossa-missao-title {
+    /* Layout Properties */
+    top: 1767px;
+    margin-left: 594px;
+    width: 732px;
+    height: 188px;
+    /* UI Properties */
+    text-align: center;
+    font: normal normal normal 162px/188px Flat Brush;
+    letter-spacing: 0px;
+    color: #FFE7D3;
+    text-transform: uppercase;
+    opacity: 1;
+
+    position: absolute;
+}
+
+/* revisar tamanho dessa div, parece ta passando um pouco e empurrando a de baixo */
+.nossa-missao-icons {
+
+    /* Layout Properties */
+    top: 1940px;
+    left: 0px;
+    width: 1920px;
+    height: 529px;
+    /* UI Properties */
+    background: #EE7D00 0% 0% no-repeat padding-box;
+    opacity: 1;
+
+}
+
+.nossa-missao-icons-1 {
+    /* Layout Properties */
+    top: 2000px;
+    left: 390px;
+    width: 255px;
+    height: 311px;
+    /* UI Properties */
+    background: #AF5902 0% 0% no-repeat padding-box;
+    border-radius: 76px;
+    opacity: 1;
+
+    position: absolute;
+    margin-top: 60px;
+
+}
+
+.nossa-missao-icons-2 {
+    /* Layout Properties */
+    top: 2000px;
+    left: 695px;
+    width: 255px;
+    height: 311px;
+    /* UI Properties */
+    background: #AF5902 0% 0% no-repeat padding-box;
+    border-radius: 76px;
+    opacity: 1;
+
+    position: absolute;
+    margin-top: 60px;
+}
+
+.nossa-missao-icons-3 {
+    /* Layout Properties */
+    top: 2000px;
+    left: 999px;
+    width: 255px;
+    height: 311px;
+    /* UI Properties */
+    background: #AF5902 0% 0% no-repeat padding-box;
+    border-radius: 76px;
+    opacity: 1;
+
+    position: absolute;
+    margin-top: 60px;
+}
+
+.nossa-missao-icons-4 {
+    /* Layout Properties */
+    top: 2000px;
+    left: 1304px;
+    width: 255px;
+    height: 311px;
+    /* UI Properties */
+    background: #AF5902 0% 0% no-repeat padding-box;
+    border-radius: 76px;
+    opacity: 1;
+
+    position: absolute;
+    margin-top: 60px;
+}
+
+/* "nossas acoes..." */
+.nossa-missao-onda {
+    /* Layout Properties */
+    top: 1940px;
+    left: 0px;
+    width: 1920px;
+    height: 529px;
+    /* UI Properties */
+    background: transparent url('ONDA_VERDE_ESCURO.svg') 0% 0% no-repeat padding-box;
+    opacity: 1;
+
+    background-size: 100%;
+
+}
+
+.texto-acoes {
+    /* Layout Properties */
+    top: 2502px;
+    left: 695px;
+    width: 531px;
+    height: 92px;
+    /* UI Properties */
+    text-align: center;
+    font: normal normal medium 35px/46px Kodchasan;
+    letter-spacing: 0px;
+    color: #FFE7D3;
+    opacity: 1;
+
+    /* test */
+    background-color: blue;
+    position: absolute;
+    margin-top: 103.15px;
+}
+
+.acoes-icons-1 {
+   /* Layout Properties */
+    left: 569px;
+    width: 243px;
+    height: 243px;
+    /* UI Properties */
+    background: transparent url('img/images (1).png') 0% 0% no-repeat padding-box;
+    border: 4px solid #FFFFFF;
+    border-radius: 20px;
+    opacity: 1; 
+
+    position: absolute;
+    margin-top: 252.73px;
+}
+
+.acoes-icons-2 {
+    /* Layout Properties */
+    left: 839px;
+    width: 242px;
+    height: 242px;
+    /* UI Properties */
+    background: transparent url('img/image (2).png') 0% 0% no-repeat padding-box;
+    border: 4px solid #FFFFFF;
+    border-radius: 20px;
+    opacity: 1;
+
+    position: absolute;
+    margin-top: 252.73px;  
+}
+
+.acoes-icons-3 {
+   /* Layout Properties */
+    left: 1108px;
+    width: 243px;
+    height: 243px;
+    /* UI Properties */
+    background: transparent url('img/E_SDG_Icons_NoText-04[70241].png') 0% 0% no-repeat padding-box;
+    border: 4px solid #FFFFFF;
+    border-radius: 20px;
+    opacity: 1; 
+
+    position: absolute;
+    margin-top: 252.73px;  
+}
+
+
+/* aqui vao ser os valores  */
+.nossos-valores {
+    /* Layout Properties */
+    top: 2947px;
+    left: 0px;
+    width: 1920px;
+    height: 1214px;
+    /* UI Properties */
+    opacity: 1;
+
+    background: transparent url('ONDA_VINHO.svg') 0% 0% no-repeat padding-box;
+    background-size: 100%;
+
+    
+
+    
+}
+
+.valores-text {
+    /* Layout Properties */
+    top: 3063px;
+    margin-left: 536px;
+    width: 848px;
+    height: 188px;
+    /* UI Properties */
+    text-align: center;
+    font: normal normal normal 162px/188px Flat Brush;
+    letter-spacing: 0px;
+    color: #FFE7D3;
+    text-transform: uppercase;
+    opacity: 1;
+
+    margin-top: 115.4px;
+    border: solid 10px blue;
+
+}
+
+.valores-icons-1 {
+    /* Layout Properties */
+top: 3290px;
+left: 478px;
+width: 255px;
+height: 311px;
+/* UI Properties */
+background: #D52616 0% 0% no-repeat padding-box;
+border-radius: 76px;
+opacity: 1;
+
+    position: absolute;
+    margin-top: 342.4px;
+}
+
+.valores-icons-2 {
+    /* Layout Properties */
+    top: 3290px;
+    left: 833px;
+    width: 255px;
+    height: 311px;
+    /* UI Properties */
+    background: #D52616 0% 0% no-repeat padding-box;
+    border-radius: 76px;
+    opacity: 1;
+
+    position: absolute;
+    margin-top: 342.4px;
+
+
+}
+
+.valores-icons-3 {
+    /* Layout Properties */
+    top: 3290px;
+    left: 1187px;
+    width: 255px;
+    height: 311px;
+    /* UI Properties */
+    background: #D52616 0% 0% no-repeat padding-box;
+    border-radius: 76px;
+    opacity: 1;
+
+    position: absolute;
+    margin-top: 342.4px;
+}
+
+.valores-icons-4 {
+    /* Layout Properties */
+    top: 3646px;
+    left: 478px;
+    width: 255px;
+    height: 311px;
+    /* UI Properties */
+    background: #D52616 0% 0% no-repeat padding-box;
+    border-radius: 76px;
+    opacity: 1;
+
+
+    position: absolute;
+    margin-top: 342.4px;
+}
+
+.valores-icons-5 {
+    /* Layout Properties */
+    top: 3646px;
+    left: 833px;
+    width: 255px;
+    height: 311px;
+    /* UI Properties */
+    background: #D52616 0% 0% no-repeat padding-box;
+    border-radius: 76px;
+    opacity: 1;
+
+
+    position: absolute;
+    margin-top: 342.4px;
+}
+
+.valores-icons-6 {
+    /* Layout Properties */
+    top: 3646px;
+    left: 1187px;
+    width: 255px;
+    height: 311px;
+    /* UI Properties */
+    background: #D52616 0% 0% no-repeat padding-box;
+    border-radius: 76px;
+    opacity: 1;
+
+    position: absolute;
+    margin-top: 342.4px;
+}
+
+
+/* apoie o projeto */
+.valores-icons {
+    /* Layout Properties */
+    top: 4025px;
+    left: 0px;
+    width: 1920px;
+    height: 1189px;
+    /* UI Properties */
+    background: #FFE7D3 0% 0% no-repeat padding-box;
+    opacity: 1;
+
+    background: transparent url('ONDA_BEGE.svg') 0% 0% no-repeat padding-box;
+    background-size: 100%;
+
+
+}
+
+
+.apoie-o-projeto-text {
+    /* Layout Properties */
+    top: 4162px;
+    margin-left: 617px;
+    width: 686px;
+    height: 273px;
+    /* UI Properties */
+    text-align: center;
+    font: normal normal normal 128px/125px Flat Brush;
+    letter-spacing: 0px;
+    color: #8F352A;
+    text-transform: uppercase;
+    opacity: 1;
+    
+    margin-top: 137px;
+
+}
+
+
+.apoie-o-projeto-box-text {
+    /* Layout Properties */
+    top: 4567px;
+    margin-left: 315px;
+    width: 518px;
+    height: 390px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal medium 23px/30px Kodchasan;
+    letter-spacing: 0px;
+    color: #8F352A;
+    opacity: 1;
+
+    background-color: blue;
+    margin-top: 542.36px;
+    position: absolute;
+}
+
+.apoie-o-projeto-box-image {
+    /* Layout Properties */
+    top: 4476px;
+    margin-left: 816px;
+    width: 996px;
+    height: 628px;
+    /* UI Properties */
+    opacity: 1;
+    background-color: green;
+}
+
+
+.oficinas {
+    /* Layout Properties */
+    top: 5104px;
+    left: 0px;
+    width: 1920px;
+    height: 1967px;
+    /* UI Properties */
+    opacity: 1;
+    background: transparent url('ONDA_VERDE_CLARO.svg') 0% 0% no-repeat padding-box;
+    background-size: 100%;
+
+
+
+}
+
+.oficina-img-1 {
+    /* Layout Properties */
+    margin-top: 35.36px;
+    left: 235px;
+    width: 838px;
+    height: 938px;
+    /* UI Properties */
+    background: transparent url('img/Capoeira.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+
+    background-color: blue;
+    position: absolute;
+}
+
+.oficina-text-1 {
+    /* Layout Properties */
+    
+    margin-top: 232.21px;
+    left: 1137px;
+    width: 354px;
+    height: 148px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal normal 128px/148px Flat Brush;
+    letter-spacing: 0px;
+    color: #FFE7D3;
+    text-transform: uppercase;
+    opacity: 1;
+
+    position: absolute;
+
+}
+
+.oficina-text-1-2 {
+    /* Layout Properties */
+    margin-top: 391.21px;
+    left: 1137px;
+    width: 297px;
+    height: 226px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal bold 35px/60px Kodchasan;
+    letter-spacing: 0px;
+    color: #FFE7D3;
+    opacity: 1;
+
+    position: absolute;
+
+}
+
+.oficina-text-1-3 {
+    /* Layout Properties */
+    margin-top: 666.21px;
+    left: 1137px;
+    width: 500px;
+    height: 120px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal medium 23px/30px Kodchasan;
+    letter-spacing: 0px;
+    color: #FFE7D3;
+    opacity: 1;
+
+    position: absolute;
+}
+
+
+.oficina-img-2 {
+    /* Layout Properties */
+    margin-top: 932.14px;
+    left: 992px;
+    width: 791px;
+    height: 1012px;
+    /* UI Properties */
+    opacity: 1;
+    
+    background-color: grey;
+    position: absolute;
+}
+
+.oficina-text-2 {
+    /* Layout Properties */
+    margin-top: 972.21px;
+    left: 313px;
+    width: 518px;
+    height: 273px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal normal 128px/125px Flat Brush;
+    letter-spacing: 0px;
+    color: #FFE7D3;
+    text-transform: uppercase;
+    opacity: 1;
+
+    position: absolute;
+}
+
+.oficina-text-2-2 {
+    /* Layout Properties */
+    margin-top: 1267.21px;
+    left: 313px;
+    width: 647px;
+    height: 171px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal bold 35px/60px Kodchasan;
+    letter-spacing: 0px;
+    color: #FFE7D3;
+    opacity: 1;
+
+    position: absolute;
+}
+
+.oficina-text-2-3 {
+    /* Layout Properties */
+    margin-top: 1472.21px;
+    left: 313px;
+    width: 596px;
+    height: 210px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal medium 23px/30px Kodchasan;
+    letter-spacing: 0px;
+    color: #FFE7D3;
+    opacity: 1;
+
+    position: absolute;
+}
+
+.saiba-mais {
+    /* Layout Properties */
+    margin-top: 1728.21px;
+    /* Layout Properties */
+    left: 313px;
+    width: 372px;
+    height: 89px;
+    /* UI Properties */
+    background: #EE7D00 0% 0% no-repeat padding-box;
+    border-radius: 45px;
+    opacity: 1;
+
+    background-color: orange;
+    position: absolute;
+}
+
+.footer {
+    /* Layout Properties */
+    top: 7071px;
+    left: 0px;
+    width: 1920px;
+    height: 369px;
+    /* UI Properties */
+    background: #52773D 0% 0% no-repeat padding-box;
+    opacity: 1;
+
+
+}
+
+.footer-logo {
+    /* Layout Properties */
+    margin-top: 87.94px;
+    left: 313px;
+    width: 298px;
+    height: 99px;
+    /* UI Properties */
+    opacity: 1;
+
+    background-color: blue;
+    position: absolute;
+}
+
+.footer-text {
+    /* Layout Properties */
+    margin-top: 221.06px;
+    left: 313px;
+    width: 596px;
+    height: 60px;
+    /* UI Properties */
+    text-align: left;
+    letter-spacing: 0px;
+    color: #FFE7D3;
+    opacity: 1;
+
+    background-color: grey;
+    position: absolute;
+}
+
+.footer-icons {
+   /* Layout Properties */
+    margin-top: 221.06px;
+    left: 1505px;
+    width: 268px;
+    height: 61px;
+    /* UI Properties */
+    opacity: 1; 
+
+    background-color: purple;
+    position: absolute
+}
